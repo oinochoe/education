@@ -41,3 +41,11 @@
 * 대화형 rebase 접속
 
 ![[사진] 커밋 메시지로 해쉬값 변경](commit_message_change_2_hash_change.jpg)
+
+## 중간 커밋의 내용 바꾸기 👨‍👨‍👦‍👦
+* 변경사항 1을 적용한 후 reabse를 잠시 멈춤
+* 중간에 name 을 변경 후에 `git rebase --continue` 명령을 통해 rebase를 계속 진행하여 마무리 👨
+* 대화형 rebase에서 체크해서 그 곳으로 돌아가서 
+* 동작 재배치 계속 (rebase continue) 클릭하여 재배치 계속하기
+
+![[사진] 중간에 커밋 추가해서 리베이스 계속 명령어로 만들기](중간기능바꾸기.jpg)
